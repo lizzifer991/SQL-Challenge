@@ -25,9 +25,6 @@ CREATE TABLE employees (
 	
 );
 
-SELECT *
-FROM employees;
-
 CREATE TABLE salaries (
 	emp_no INT,
 	salary INT
@@ -39,3 +36,6 @@ CREATE TABLE titles (
 	title VARCHAR
 	
 );
+
+SELECT *
+FROM employees;
